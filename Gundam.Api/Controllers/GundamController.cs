@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Gundam.Core.Models;
+using Gundam.Core.Interfaces;
 
 namespace Gundam.Api.Controllers;
 
@@ -9,19 +10,17 @@ public class GundamController : ControllerBase
 {
     private readonly ILogger<GundamController> _logger;
 
-    public GundamController(ILogger<GundamController> logger)
+    private readonly IRepository _repo;
+
+    public GundamController(ILogger<GundamController> logger, IRepository repository)
     {
         _logger = logger;
+        _repo = repository;
     }
 
     [HttpGet(Name = "GetGundam")]
-    public MobileSuit Get()
+    public IEnumerable<MobileSuit> Get()
     {
-        return new MobileSuit()
-        {
-            GundamId = 0,
-            Model = "RX-78-2",
-            Pilot = "Amuro Ray"
-        };
+        return _repo.GetMobileSuits();
     }
 }
