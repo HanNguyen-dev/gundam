@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundam.Api", "Gundam.Api\Gundam.Api.csproj", "{460D1ED7-2B8F-434D-80C7-A36D7F18B9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundam.Core", "Gundam.Core\Gundam.Core.csproj", "{BD77B5B6-ACDB-47AE-A6F8-8D23D7049D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundam.DataAccess", "Gundam.DataAccess\Gundam.DataAccess.csproj", "{95117F5B-5AA5-47EF-912F-ABCFE1D4D5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gundam.Test", "Gundam.Test\Gundam.Test.csproj", "{AC6B0C0B-FE1C-4317-B805-20BB4890DE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460D1ED7-2B8F-434D-80C7-A36D7F18B9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460D1ED7-2B8F-434D-80C7-A36D7F18B9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460D1ED7-2B8F-434D-80C7-A36D7F18B9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460D1ED7-2B8F-434D-80C7-A36D7F18B9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD77B5B6-ACDB-47AE-A6F8-8D23D7049D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD77B5B6-ACDB-47AE-A6F8-8D23D7049D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD77B5B6-ACDB-47AE-A6F8-8D23D7049D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD77B5B6-ACDB-47AE-A6F8-8D23D7049D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95117F5B-5AA5-47EF-912F-ABCFE1D4D5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95117F5B-5AA5-47EF-912F-ABCFE1D4D5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95117F5B-5AA5-47EF-912F-ABCFE1D4D5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95117F5B-5AA5-47EF-912F-ABCFE1D4D5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B0C0B-FE1C-4317-B805-20BB4890DE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B0C0B-FE1C-4317-B805-20BB4890DE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B0C0B-FE1C-4317-B805-20BB4890DE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B0C0B-FE1C-4317-B805-20BB4890DE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
